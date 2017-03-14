@@ -1,0 +1,39 @@
+//SOCKET
+
+include necessary
+string.h  >> strlen
+stdlib    >> strlen
+arpa/inet >> inet_addr (configuration socket)
+unistd    >> write
+pthread   >> for threading
+socket
+
+
+//Server TCP:
+Socket
+Bind
+Listen
+Accept connection
+Read/Send
+
+//Client TCP:
+Socket
+Connect
+Read/Send
+
+Para rodar codigo c++: g++ -pthread -o server2 ServerTCPMultiThread.cpp
+
+//Server UDP:
+Socket
+Bind
+Accept connection
+Readfrom/Sendto
+
+//Client UDP	:
+Socket
+Connect
+Readfrom/Sendto
+
+
+
+
